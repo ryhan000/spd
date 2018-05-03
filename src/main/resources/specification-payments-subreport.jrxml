@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 4.5.0  -->
+<!-- 2017-07-20T13:15:30 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="specification-jobs-subreport.rxml" pageWidth="595" pageHeight="842" columnWidth="509" leftMargin="0" rightMargin="86" topMargin="0" bottomMargin="0">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<parameter name="QUANTITY_OF_PAYMENTS" class="java.lang.Integer" isForPrompting="false"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="paymentNumber" class="java.lang.Integer">
+		<fieldDescription><![CDATA[paymentNumber]]></fieldDescription>
+	</field>
+	<field name="paymentDays" class="java.lang.Integer">
+		<fieldDescription><![CDATA[paymentDays]]></fieldDescription>
+	</field>
+	<field name="paymentSum" class="java.lang.Double">
+		<fieldDescription><![CDATA[paymentSum]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="36" splitType="Stretch">
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToBandHeight" x="10" y="0" width="497" height="36">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="3" spacingBefore="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paymentNumber} + " частина винагороди у розмірі " + $F{paymentSum} + " грн. виплачується на протязі " +  $F{paymentDays} + " банківських днів з моменту " + (($F{paymentNumber}==$P{QUANTITY_OF_PAYMENTS}) ? "підписання Акта приймання-передачі виконаних робіт." : "підписання даного Додатку;")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="10" height="36">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="DejaVu Sans" size="14"/>
+				</textElement>
+				<text><![CDATA[•]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

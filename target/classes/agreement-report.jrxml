@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 4.5.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="agreement-report" pageWidth="595" pageHeight="842" columnWidth="509" leftMargin="56" rightMargin="30" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="agreementDate" class="java.util.Date">
+		<fieldDescription><![CDATA[agreementDate]]></fieldDescription>
+	</field>
+	<field name="companyDirectorFullName" class="java.lang.String">
+		<fieldDescription><![CDATA[companyDirectorFullName]]></fieldDescription>
+	</field>
+	<field name="spdAlias" class="java.lang.String">
+		<fieldDescription><![CDATA[spdAlias]]></fieldDescription>
+	</field>
+	<field name="companyName" class="java.lang.String">
+		<fieldDescription><![CDATA[companyName]]></fieldDescription>
+	</field>
+	<field name="spdFullName" class="java.lang.String">
+		<fieldDescription><![CDATA[spdFullName]]></fieldDescription>
+	</field>
+	<field name="companyVatCertificate" class="java.lang.String">
+		<fieldDescription><![CDATA[companyVatCertificate]]></fieldDescription>
+	</field>
+	<field name="companyAccount" class="java.lang.String">
+		<fieldDescription><![CDATA[companyAccount]]></fieldDescription>
+	</field>
+	<field name="companyDirectorShortName" class="java.lang.String">
+		<fieldDescription><![CDATA[companyDirectorShortName]]></fieldDescription>
+	</field>
+	<field name="regInfoDated" class="java.util.Date">
+		<fieldDescription><![CDATA[regInfoDated]]></fieldDescription>
+	</field>
+	<field name="companyTaxId" class="java.lang.String">
+		<fieldDescription><![CDATA[companyTaxId]]></fieldDescription>
+	</field>
+	<field name="spdInn" class="java.lang.String">
+		<fieldDescription><![CDATA[spdInn]]></fieldDescription>
+	</field>
+	<field name="agreementTitle" class="java.lang.String">
+		<fieldDescription><![CDATA[agreementTitle]]></fieldDescription>
+	</field>
+	<field name="companyInn" class="java.lang.String">
+		<fieldDescription><![CDATA[companyInn]]></fieldDescription>
+	</field>
+	<field name="spdAccount" class="java.lang.String">
+		<fieldDescription><![CDATA[spdAccount]]></fieldDescription>
+	</field>
+	<field name="companyAddress" class="java.lang.String">
+		<fieldDescription><![CDATA[companyAddress]]></fieldDescription>
+	</field>
+	<field name="regInfoDescription" class="java.lang.String">
+		<fieldDescription><![CDATA[regInfoDescription]]></fieldDescription>
+	</field>
+	<field name="spdAddress" class="java.lang.String">
+		<fieldDescription><![CDATA[spdAddress]]></fieldDescription>
+	</field>
+	<field name="companyDirectorPost" class="java.lang.String">
+		<fieldDescription><![CDATA[companyDirectorPost]]></fieldDescription>
+	</field>
+	<group name="AgreementGroup">
+		<groupHeader>
+			<band height="738">
+				<staticText>
+					<reportElement positionType="Float" x="0" y="227" width="509" height="35"/>
+					<textElement textAlignment="Justified" verticalAlignment="Top" markup="none">
+						<font fontName="DejaVu Sans" isBold="false"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[1.1.	Виконавець зобов’язується за завданням Замовника надати послуги згідно п. 2.1 Договору, в порядку та на умовах, визначених цим Договором.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="302" width="509" height="265">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<text><![CDATA[2.1.	Згідно з цього Договору, Виконавець надає Замовнику послуги, згідно наступним видам КВЕД:
+	- 62.01 (Комп’ютерне програмування);
+	- 62.02 (Консультування з питань інформатизації);
+	- 62.03 (Діяльність із керування комп'ютерним устаткуванням);
+	- 62.09 (Інша діяльність у сфері інформаційних технологій і комп’ютерних систем);
+	- 63.11 (Оброблення даних, розміщення інформації на веб-вузлах і пов'язана з ними діяльність);
+	- 63.12 (Веб-портали).
+2.2.	Всі виняткові майнові авторські права, на використання в межах території України та за її межами,  на результати послуг відповідно до п.2.1. даного Договору, а також будь яких інших матеріалів, які були розроблені Виконавцем в рамках даного Договору, переходять від Виконавця до Замовника в момент їх повної оплати.
+]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="262" width="509" height="40"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[2.	Відомості про послуги. Авторські права.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="567" width="509" height="40"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[3.	Умови надання та оплата послуг.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="607" width="509" height="99">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<text><![CDATA[3.1.	Замовник зобов'язаний надати Виконавцю технічне завдання у вигляді специфікації.
+3.2.	Виконавець зобов'язаний розглянути технічне завдання та описати кількість годин, необхідних для надання послуг, та зазначити терміни виконання послуг.
+3.3.	У разі неможливості виконання послуг відповідно до технічного завдання, Виконавець повинен надати мотивовані причини неможливості виконання.]]></text>
+				</staticText>
+				<textField>
+					<reportElement positionType="Float" x="0" y="712" width="509" height="20"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Стр. " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="0" y="10" width="509" height="50"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph lineSpacing="1_1_2" lineSpacingSize="1.0"/>
+					</textElement>
+					<textFieldExpression><![CDATA["ДОГОВІР № " + $F{agreementTitle} + "\n" +
+"про надання послуг"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="60" width="81" height="50"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<text><![CDATA[м. Київ]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="360" y="60" width="149" height="50"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[(new SimpleDateFormat("dd.MM.yyyy").format($F{agreementDate})) + "р."]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="0" y="116" width="509" height="70"/>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{companyName} + " (надалі іменується " + '"' + "Замовник" + '"' + ") в особі: " + $F{companyDirectorPost} + " " + $F{companyDirectorFullName} + ", що діє на підставі Статуту, з однієї сторони, та СПД-ФОП " + $F{spdFullName} + " (надалі іменується " + '"' + "Виконавець" + '"' + ") в особі: " + $F{spdFullName} + ", що діє на підставі номеру запису в Єдиному державному реєстрі юридичних осіб та фізичних осіб-підприємців про проведення державної реєстрації " + $F{regInfoDescription} + " від " + (new SimpleDateFormat("dd.MM.yyyy").format($F{agreementDate})) + "р."+ ", з іншої сторони, (в подальшому разом іменуються " + '"' + "Сторони" + '"' + ", а кожна окремо – " + '"' + "Сторона" + '"' + ") уклали цей Договір про надання послуг (надалі іменується " + '"' + "Договір" + '"' + ") про наступне:"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="187" width="509" height="40"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[1.	Предмет договору.]]></text>
+				</staticText>
+			</band>
+			<band height="785">
+				<staticText>
+					<reportElement positionType="Float" x="0" y="43" width="509" height="263"/>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<text><![CDATA[3.4.	Специфікація оформлюється у вигляді окремого додатка до Договору, у якому описуються вартість послуг, термін виконання та загальна кількість годин, необхідних для надання послуг.
+3.5.	Приймання виконаних послуг здійснюється за фактом їх виконання та у строк, зазначений згідно специфікації, з оформленням Акта про приймання-передачі виконаних робіт (далі – «Акт») у двох примірниках.
+3.6.	Акт про надані послуги надається після виконання послуг згідно специфікації.
+3.7.	Оплата послуг Виконавця здійснюється безготівковим шляхом в національній валюті України. Датою оплати вважається дата надходження  грошових коштів на розрахунковий рахунок Виконавця. Замовник зобов’язаний перерахувати суму, зазначену в акті впродовж 5 (п'яти) банківських днів з моменту підписання такого акту.
+3.8.	У разі дострокового надання послуг Замовник має право, але не зобов’язаний, достроково прийняти та оплатити послуги.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="306" width="509" height="40"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[4.	Обов’язки сторін.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="346" width="509" height="202">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<text><![CDATA[4.1.	Обов’язки Виконавця:
+	4.1.1.	Своєчасно та якісно надавати послуги згідно КВЕД зазначених в п. 2.1 цього Договору.
+	4.1.2.	При виникненні обставин, що перешкоджають належному виконанню своїх зобов’язань, згідно з цим Договором, терміново повідомити про це Замовника.
+	4.1.3.	Складати та передавати Замовнику акти про надання послуг.
+4.2.	Обов'язки Замовника:
+	4.2.1.	Приймати від Виконавця послуги, що надаються згідно з цим Договором.
+	4.2.2.	Після контролю за достовірністю актів про надання послуг Виконавцем, підписувати ці акти в 5 денній термін з моменту одержання.
+	4.2.3. Оплачувати послуги, на умовах та в порядку зазначеному у розділі 3 цього Договору.
+]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="548" width="509" height="40"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[5.	Конфіденційна інформація.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="588" width="509" height="159">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<text><![CDATA[5.1.	Виконавець зобов’язаний зберегти в таємниці інформацію про Замовника і його діяльність, що стала йому відома при виконанні Робіт за цим Договором. Таке зобов’язання зберігає чинність і після закінчення строку дії Договору на протязі 5(п’яти) років.
+5.2.	Виконавець зобов’язується зберігати в таємниці інформацію про структуру мережі, Компанію Замовника та її клієнтів, серверні потужності Замовника.
+5.3.	Виконавець зобов’язується виконувати всі необхідні дії по нерозголошенню, збереженню й захисту інформації, зазначеної в п.п. 5.1, 5.2 цього Договору.
+5.4.	Крім інформації, зазначеної в п.п. 5.1-5.3 цього Договору Виконавець зобов’язується ]]></text>
+				</staticText>
+				<textField>
+					<reportElement positionType="Float" x="0" y="758" width="509" height="20"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Стр. " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="0" y="0" width="509" height="30"/>
+					<box>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA["ДОГОВІР № " + $F{agreementTitle} + " про надання послуг від " + (new SimpleDateFormat("dd.MM.yyyy").format($F{agreementDate})) + "р." + "\n" + 
+"між " + $F{companyName} + " та ФОП " + $F{spdAlias}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="786">
+				<staticText>
+					<reportElement positionType="Float" x="0" y="43" width="509" height="35"/>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<text><![CDATA[зберігати й не розголошувати інформацію, визначену Положенням «Про комерційну таємницю й конфіденційну інформацію ТОВ «ГЕОСАП».]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="78" width="509" height="40"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[6.	Відповідальність сторін та вирішення спорів.]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="0" y="0" width="509" height="30"/>
+					<box>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA["ДОГОВІР № " + $F{agreementTitle} + " про надання послуг від " + (new SimpleDateFormat("dd.MM.yyyy").format($F{agreementDate})) + "р." + "\n" + 
+"між " + $F{companyName} + " та ФОП " + $F{spdAlias}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="118" width="509" height="431">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<text><![CDATA[6.1.	Сторони вживають всі зусилля для того, щоб будь-які спори, розбіжності або претензії, що виникають за цим Договором або у зв’язку з ним, були врегульовані шляхом переговорів. У випадку, якщо сторони не прийдуть до згоди шляхом переговорів, спір передається на вирішення суду відповідно до чинного законодавства України.
+6.2.	У випадку порушення своїх зобов’язань за цим Договором Сторони несуть відповідальність визначену цим Договором та чинним законодавством. Порушенням зобов’язання є його невиконання або неналежне виконання, тобто виконання з порушенням умов, визначених змістом зобов’язання.
+6.3.	Сторони не несуть відповідальність за порушення своїх зобов’язань за цим Договором, якщо воно сталося не з їх вини. Сторона вважається не винуватою, якщо вона доведе, що вжила всіх залежних від неї заходів для належного виконання зобов’язання.
+6.4.	Жодна із Сторін не несе відповідальність за невиконання чи неналежне виконання своїх зобов'язань по цьому Договору, якщо це невиконання чи неналежне виконання зумовлені дією обставин непереборної сили (форс-мажорних обставин). Сторона, для якої склались форс-мажорні обставини, зобов'язана не пізніше 3 (трьох) календарних днів з дати настання таких обставин повідомити у письмовій формі іншу Сторону.
+6.5.	За одноразову необґрунтовану відмову від виконання своїх зобов’язань винна Сторона сплачує іншій Стороні штраф у розмірі 500,00 (п'ятсот) грн.
+6.6.	За недотримання строків сплати, зазначених в п. 3.7. Договору Замовник сплачує Виконавцю пеню у розмірі 5 % від суми прострочення (але не більше подвійної облікової ставки НБУ, що діяла на момент прострочення), за кожний день прострочення.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="549" width="509" height="40"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[7.	Строк дії Договору та інші умови.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="589" width="509" height="164">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<text><![CDATA[7.1.	Договір набуває чинності з моменту його підписання Сторонами і діє протягом 3 років, але до моменту повного виконання Сторонами своїх зобов’язань за цим Договором.
+7.2.	Умови даного Договору можуть бути змінені за взаємною згодою Сторін з обов’язковим складанням письмового документу.
+7.3.	Договір може бути розірваний за взаємною згодою сторін. Одностороннє розірвання Договору можливе лише в випадках, передбачених цим Договором та законодавством України.
+7.4.	Кожна із сторін має право розірвати цей Договір в односторонньому порядку, попередньо письмово повідомити про це другу сторону за 30 календарних днів.
+]]></text>
+				</staticText>
+				<textField>
+					<reportElement positionType="Float" x="0" y="758" width="509" height="20"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Стр. " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+			</band>
+			<band height="778">
+				<textField isStretchWithOverflow="true">
+					<reportElement x="0" y="0" width="509" height="30"/>
+					<box>
+						<bottomPen lineWidth="1.0"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="8" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<textFieldExpression><![CDATA["ДОГОВІР № " + $F{agreementTitle} + " про надання послуг від " + (new SimpleDateFormat("dd.MM.yyyy").format($F{agreementDate})) + "р." + "\n" + 
+"між " + $F{companyName} + " та ФОП " + $F{spdAlias}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement positionType="Float" x="0" y="758" width="509" height="20"/>
+					<textElement textAlignment="Center" verticalAlignment="Bottom">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Стр. " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="44" width="509" height="306">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Justified">
+						<font fontName="DejaVu Sans"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="0"/>
+					</textElement>
+					<text><![CDATA[7.5.	Усі спори, що пов’язані з цим Договором вирішуються шляхом переговорів між Сторонами. Якщо спір не може бути вирішений шляхом переговорів, він вирішується в судовому порядку за встановленою підвідомчістю та підсудністю такого спору, визначеному відповідним чинним законодавством України.
+7.6.	Виконавець має статус платника єдиного податку за ставкою 5%.
+7.7.	Замовник має статус платника єдиного податку за ставкою 3%.
+7.8.	Даний Договор укладено у двох оригінальних примірниках, по одному для кожної із сторін.
+7.9.	Всі додатки, зміни й доповнення до цього Договору дійсні за умови їх підписання обома Сторонами та становлять невід’ємну частину Договору.
+7.10.	У випадках, не передбачених даним Договором, сторони керуються нормами чинного законодавства.
+7.11.	Після підписання цього Договору усі попередні переговори за ним, листування, попередні угоди та протоколи про наміри з питань, що так чи інакше стосуються цього Договору, втрачають юридичну силу. 
+]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="428" width="255" height="31" backcolor="#C5BEBE"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<text><![CDATA[ВИКОНАВЕЦЬ:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="255" y="428" width="255" height="31" backcolor="#C5BEBE">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<text><![CDATA[ЗАМОВНИК:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="0" y="459" width="255" height="31">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["ФОП " + $F{spdFullName}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="255" y="459" width="255" height="31">
+						<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{companyName}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="490" width="255" height="155"/>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement>
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph leftIndent="4" spacingBefore="4"/>
+					</textElement>
+					<textFieldExpression><![CDATA["ІПН: " + $F{spdInn} + "\n" + "\n" +
+"Адреса: " + $F{spdAddress} + "\n" + "\n" +
+"П/р: " + $F{spdAccount} + "\n"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="255" y="491" width="255" height="154"/>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement>
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph firstLineIndent="0" leftIndent="4" rightIndent="0" spacingBefore="4"/>
+					</textElement>
+					<textFieldExpression><![CDATA["ЕДРПОУ: " + $F{companyTaxId} +", ІПН: " + $F{companyInn} + "\n" +
+"Свідоцтво ПДВ №: " + $F{companyVatCertificate} + "\n" + "\n" +
+"Адреса: " + $F{companyAddress} + "\n" + "\n" +
+"П/р: " + $F{companyAccount} + "\n" + "\n" +
+$F{companyDirectorPost} + "\n"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="645" width="255" height="35">
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					</reportElement>
+					<box>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph leftIndent="4" spacingBefore="4" spacingAfter="4"/>
+					</textElement>
+					<textFieldExpression><![CDATA["________________________/ " + $F{spdAlias} + " /"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="255" y="645" width="255" height="35"/>
+					<box>
+						<leftPen lineWidth="1.0"/>
+						<bottomPen lineWidth="1.0"/>
+						<rightPen lineWidth="1.0"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph leftIndent="4" spacingBefore="4" spacingAfter="4"/>
+					</textElement>
+					<textFieldExpression><![CDATA["________________________/ " + $F{companyDirectorShortName} + " /"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement positionType="Float" x="0" y="388" width="509" height="40"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+						<font fontName="DejaVu Sans" isBold="true"/>
+						<paragraph lineSpacing="Double" lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[Місцезнаходження та реквізити Сторін]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+</jasperReport>

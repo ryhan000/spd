@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 4.5.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="certificate-report" pageWidth="595" pageHeight="842" columnWidth="509" leftMargin="56" rightMargin="30" topMargin="20" bottomMargin="20">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="configuringHours" class="java.lang.Integer">
+		<fieldDescription><![CDATA[configuringHours]]></fieldDescription>
+	</field>
+	<field name="specificationFinalDate" class="java.util.Date">
+		<fieldDescription><![CDATA[specificationFinalDate]]></fieldDescription>
+	</field>
+	<field name="agreementDate" class="java.util.Date">
+		<fieldDescription><![CDATA[agreementDate]]></fieldDescription>
+	</field>
+	<field name="specificationStartDate" class="java.util.Date">
+		<fieldDescription><![CDATA[specificationStartDate]]></fieldDescription>
+	</field>
+	<field name="companyName" class="java.lang.String">
+		<fieldDescription><![CDATA[companyName]]></fieldDescription>
+	</field>
+	<field name="payments" class="java.util.List">
+		<fieldDescription><![CDATA[payments]]></fieldDescription>
+	</field>
+	<field name="spdFullName" class="java.lang.String">
+		<fieldDescription><![CDATA[spdFullName]]></fieldDescription>
+	</field>
+	<field name="specificationNumber" class="java.lang.Integer">
+		<fieldDescription><![CDATA[specificationNumber]]></fieldDescription>
+	</field>
+	<field name="companyAccount" class="java.lang.String">
+		<fieldDescription><![CDATA[companyAccount]]></fieldDescription>
+	</field>
+	<field name="companyDirectorShortName" class="java.lang.String">
+		<fieldDescription><![CDATA[companyDirectorShortName]]></fieldDescription>
+	</field>
+	<field name="regInfoDated" class="java.util.Date">
+		<fieldDescription><![CDATA[regInfoDated]]></fieldDescription>
+	</field>
+	<field name="quantityOfPayments" class="java.lang.Integer">
+		<fieldDescription><![CDATA[quantityOfPayments]]></fieldDescription>
+	</field>
+	<field name="spdInn" class="java.lang.String">
+		<fieldDescription><![CDATA[spdInn]]></fieldDescription>
+	</field>
+	<field name="agreementTitle" class="java.lang.String">
+		<fieldDescription><![CDATA[agreementTitle]]></fieldDescription>
+	</field>
+	<field name="companyInn" class="java.lang.String">
+		<fieldDescription><![CDATA[companyInn]]></fieldDescription>
+	</field>
+	<field name="configuringRate" class="java.lang.Double">
+		<fieldDescription><![CDATA[configuringRate]]></fieldDescription>
+	</field>
+	<field name="regInfoDescription" class="java.lang.String">
+		<fieldDescription><![CDATA[regInfoDescription]]></fieldDescription>
+	</field>
+	<field name="architectingHours" class="java.lang.Integer">
+		<fieldDescription><![CDATA[architectingHours]]></fieldDescription>
+	</field>
+	<field name="companyDirectorFullName" class="java.lang.String">
+		<fieldDescription><![CDATA[companyDirectorFullName]]></fieldDescription>
+	</field>
+	<field name="spdAlias" class="java.lang.String">
+		<fieldDescription><![CDATA[spdAlias]]></fieldDescription>
+	</field>
+	<field name="jobs" class="java.util.List">
+		<fieldDescription><![CDATA[jobs]]></fieldDescription>
+	</field>
+	<field name="programmingRate" class="java.lang.Double">
+		<fieldDescription><![CDATA[programmingRate]]></fieldDescription>
+	</field>
+	<field name="architectingRate" class="java.lang.Double">
+		<fieldDescription><![CDATA[architectingRate]]></fieldDescription>
+	</field>
+	<field name="companyVatCertificate" class="java.lang.String">
+		<fieldDescription><![CDATA[companyVatCertificate]]></fieldDescription>
+	</field>
+	<field name="specificationSum" class="java.lang.Double">
+		<fieldDescription><![CDATA[specificationSum]]></fieldDescription>
+	</field>
+	<field name="companyTaxId" class="java.lang.String">
+		<fieldDescription><![CDATA[companyTaxId]]></fieldDescription>
+	</field>
+	<field name="spdAccount" class="java.lang.String">
+		<fieldDescription><![CDATA[spdAccount]]></fieldDescription>
+	</field>
+	<field name="companyAddress" class="java.lang.String">
+		<fieldDescription><![CDATA[companyAddress]]></fieldDescription>
+	</field>
+	<field name="spdAddress" class="java.lang.String">
+		<fieldDescription><![CDATA[spdAddress]]></fieldDescription>
+	</field>
+	<field name="programmingHours" class="java.lang.Integer">
+		<fieldDescription><![CDATA[programmingHours]]></fieldDescription>
+	</field>
+	<field name="companyDirectorPost" class="java.lang.String">
+		<fieldDescription><![CDATA[companyDirectorPost]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="373" splitType="Stretch">
+			<textField isStretchWithOverflow="true">
+				<reportElement x="0" y="12" width="509" height="88"/>
+				<textElement textAlignment="Center">
+					<font fontName="DejaVu Sans" isBold="true"/>
+					<paragraph lineSpacing="1_1_2" lineSpacingSize="1.0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["АКТ" + "\n" +
+"приймання-передачі виконаних робіт №" + $F{specificationNumber} + "\n" +
+"до «Специфікації №" + $F{specificationNumber} + "» Додатка №" + $F{specificationNumber} + "\n" +
+"до Договору про надання послуг №" + $F{agreementTitle} + " від " + (new SimpleDateFormat("dd.MM.yyyy").format($F{agreementDate})) + "р."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="115" width="81" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isBold="true"/>
+					<paragraph firstLineIndent="15"/>
+				</textElement>
+				<text><![CDATA[м. Київ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="360" y="115" width="149" height="21"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(new SimpleDateFormat("dd.MM.yyyy").format($F{specificationFinalDate})) + "р."]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="0" y="150" width="509" height="60"/>
+				<textElement textAlignment="Justified">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Цей Акт складено на виконання переліку робіт згідно Додатку №" + $F{specificationNumber} + " до Договору про надання послуг №" + $F{agreementTitle} + " від " + (new SimpleDateFormat("dd.MM.yyyy").format($F{agreementDate})) + "р., укладеного між " + $F{companyName} + " (надалі іменується «Замовник»), та СПД-ФОП " + $F{spdAlias} + " (надалі іменується «Виконавець»)."]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="220" width="509" height="153"/>
+				<textElement textAlignment="Justified">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="Double" lineSpacingSize="1.0" firstLineIndent="15" spacingBefore="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1. Ми, що нижче підписалися, Виконавець, в особі: " + $F{spdFullName} + ", що діє на підставі документу: " + $F{regInfoDescription} + " від " + (new SimpleDateFormat("dd.MM.yyyy").format($F{regInfoDated})) + "р."+ ", з однієї сторони, і Замовник, в особі: " + $F{companyDirectorPost} + " " + $F{companyDirectorFullName} + ", що діє на підставі Статуту, з іншої сторони, склали цей Акт про те, що роботи, передбачені Додатком №" + $F{specificationNumber} + "до Договору, виконано якісно, в повному обсязі та в строк, згідно з умовами зазначеного вище Додатка №" + $F{specificationNumber} + " до Договору." + "\n" +
+"2. За виконану роботу Замовник сплачує Виконавцеві винагороду у розмірі " + $F{specificationSum} + " грн."+ "\n" +
+"3. У Замовника претензій до якості виконаних робіт немає."]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<summary>
+		<band height="271">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="10" width="255" height="31" backcolor="#C5BEBE"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ВИКОНАВЕЦЬ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="255" y="10" width="255" height="31" backcolor="#C5BEBE">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ЗАМОВНИК:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="41" width="255" height="31">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ФОП " + $F{spdFullName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="41" width="255" height="31">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{companyName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="72" width="255" height="155"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+					<paragraph leftIndent="4" spacingBefore="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ІПН: " + $F{spdInn} + "\n" + "\n" +
+"Адреса: " + $F{spdAddress} + "\n" + "\n" +
+"П/р: " + $F{spdAccount} + "\n"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="73" width="255" height="154"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+					<paragraph firstLineIndent="0" leftIndent="4" rightIndent="0" spacingBefore="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ЕДРПОУ: " + $F{companyTaxId} +", ІПН: " + $F{companyInn} + "\n" +
+"Свідоцтво ПДВ №: " + $F{companyVatCertificate} + "\n" + "\n" +
+"Адреса: " + $F{companyAddress} + "\n" + "\n" +
+"П/р: " + $F{companyAccount} + "\n" + "\n" +
+$F{companyDirectorPost} + "\n"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="227" width="255" height="35">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+				</reportElement>
+				<box>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isBold="true"/>
+					<paragraph leftIndent="4" spacingBefore="4" spacingAfter="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA["________________________/ " + $F{spdAlias} + " /"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="227" width="255" height="35"/>
+				<box>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isBold="true"/>
+					<paragraph leftIndent="4" spacingBefore="4" spacingAfter="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA["________________________/ " + $F{companyDirectorShortName} + " /"]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>
